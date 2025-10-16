@@ -21,7 +21,7 @@ Zusätzlich beeinflussen **Reibung** und **Luftwiderstand** die Schwingungsdauer
 Da das Gewicht nicht punktförmig ist, muss festgelegt werden, wie die Länge *L* zu verstehen ist:  
 Wir messen stets **vom Mittelpunkt der Aufhängung bis zum untersten Punkt des Gewichts**.
 
-![](./figures/maßband.jpg)
+![](./figures/massband.jpg)
 
 Die Länge *L* wird mit einem **Maßband** gemessen.
 
