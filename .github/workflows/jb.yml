@@ -12,7 +12,6 @@ jobs:
       contents: write
       pages: write
       id-token: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -21,7 +20,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          # Cache-Key inkl. requirements.txt UND _config.yml, damit Änderungen an Extensions den Cache busten
+          # Cache-Key inkl. requirements.txt UND _config.yml, damit Ext-Änderungen Cache busten
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt', '_config.yml') }}
           restore-keys: ${{ runner.os }}-pip-
 
@@ -34,21 +33,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          # Gürtel & Hosenträger: explizit sicherstellen, dass die Extensions da sind
           pip install sphinxcontrib-youtube sphinxcontrib-mermaid
 
       - name: Sanity check: extensions importable
         run: |
-          python - << 'PY'
-          import importlib, sys
-          for mod in ("sphinxcontrib.youtube", "sphinxcontrib.mermaid"):
-              try:
-                  importlib.import_module(mod)
-                  print(f"OK: {mod} importable")
-              except Exception as e:
-                  print(f"FAIL: {mod} not importable -> {e}")
-                  sys.exit(1)
-          PY
+          python -c "import importlib,sys; \
+          importlib.import_module('sphinxcontrib.youtube'); \
+          importlib.import_module('sphinxcontrib.mermaid'); \
+          print('OK: sphinxcontrib.youtube & sphinxcontrib.mermaid importable')"
 
       - name: Build book
         run: |
@@ -58,8 +50,10 @@ jobs:
 
       - name: Verify YouTube iframe present
         run: |
-          grep -R --include='*.html' -n '<iframe' _build/html || \
-            (echo "No <iframe> found in built HTML (YouTube likely not rendered)"; exit 1)
+          if ! grep -R --include='*.html' -n '<iframe' _build/html; then
+            echo 'No <iframe> found in built HTML (YouTube likely not rendered)';
+            exit 1;
+          fi
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
