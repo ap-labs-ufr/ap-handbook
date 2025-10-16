@@ -9,7 +9,7 @@ Der inhaltliche Schwerpunkt liegt auf der **korrekten Auswertung der Messwerte**
 
 Zur experimentellen Realisierung eines **mathematischen Pendels** verwenden wir ein **einfaches Fadenpendel**.
 
-![](aufbau.jpg)
+![](figures/aufbau.jpg)
 
 Da die **Masse nicht punktförmig** und der **Faden nicht masselos** ist, treten Abweichungen vom idealen Modell auf.  
 Zusätzlich beeinflussen **Reibung** und **Luftwiderstand** die Schwingungsdauer durch eine allmähliche Abnahme der Amplitude.
@@ -21,7 +21,7 @@ Zusätzlich beeinflussen **Reibung** und **Luftwiderstand** die Schwingungsdauer
 Da das Gewicht nicht punktförmig ist, muss festgelegt werden, wie die Länge *L* zu verstehen ist:  
 Wir messen stets **vom Mittelpunkt der Aufhängung bis zum untersten Punkt des Gewichts**.
 
-![](maßband.jpg)
+![](figures/maßband.jpg)
 
 Die Länge *L* wird mit einem **Maßband** gemessen.
 
@@ -31,7 +31,7 @@ Die Länge *L* wird mit einem **Maßband** gemessen.
 
 Die **Schwingungsdauer *T*** wird mit einer **digitalen Stoppuhr** bestimmt.
 
-![](stoppuhr.jpg)
+![](figures/stoppuhr.jpg)
 
 ---
 
