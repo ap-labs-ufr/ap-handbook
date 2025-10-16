@@ -18,4 +18,18 @@ das **Volumen** für regulär geformte Körper aus **Längenmessungen** berechne
 ```
 
 ---
+
+## 🔬 Versuchsaufbau
+
+```{figure} ./figures/aufbau.jpg
+:alt: Versuchsaufbau zur Dichtebestimmung
+:width: 75%
+```
+
+Versuchsaufbau mit Messschieber, Bügelmessschraube, Federwaage, Prüfgewichten und verschiedenen Metallproben.
+
+---
+
+## 📏 Messschieber
+
 ![](./figures/using_the_caliper_new.gif)
