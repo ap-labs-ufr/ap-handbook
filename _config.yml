@@ -30,10 +30,7 @@ html:
 sphinx:
   extra_extensions:
     - sphinxcontrib.mermaid
-  config:
-    extensions:
-      - sphinxcontrib.youtube
-
+    - sphinxcontrib.youtube
 
 repository:
   url: https://github.com/ap-labs-ufr/ap-handbook
