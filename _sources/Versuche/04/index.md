@@ -29,4 +29,61 @@ Versuchsaufbau mit Messschieber, Bügelmessschraube, Federwaage, Prüfgewichten 
 
 ## 📏 Messschieber
 
+![](./figures/wikipedia-messschieber.png)
+
+**Abbildung:** Ein Messschieber besitzt einen festen und einen beweglichen Messschenkel, die an die Probe angelegt werden, ohne Druck auszuüben. Er eignet sich für Außen-, Innen- und Tiefenmaße.
+
 ![](./figures/using_the_caliper_new.gif)
+
+**Abbildung:** Die Längenmessung erfolgt durch Vergleich mit einer kalibrierten Skala. Ein Nonius verbessert die Ablesegenauigkeit.
+
+🔗 [Wikipedia – Messschieber](https://de.wikipedia.org/wiki/Messschieber)  
+🔗 [Wikipedia – Nonius](https://de.wikipedia.org/wiki/Nonius)
+
+---
+
+## ⚙️ Messschraube
+
+![](./figures/messschraube.png)
+
+**Abbildung:** Eine Messschraube (Bügelmessschraube, Mikrometerschraube) besitzt eine feste und eine bewegliche Messfläche, verbunden durch einen Bügel. Die Bewegung erfolgt über eine Feingewindeschraube, die mit einer Gefühlsschraube betätigt wird.
+
+![](./figures/mahr_micromar.jpg)
+
+**Abbildung:** Der Messwert wird zunächst auf der Hauptskala, anschließend (Bruchteile von 1/50 oder 1/100 mm) auf der Feinskala abgelesen. Im Beispiel beträgt der Messwert 1,64 mm.
+
+🔗 [Wiki – Bügelmessschraube (Uni Duisburg-Essen)](https://wiki.uni-due.de/tud/index.php/B%C3%BCgelmessschraube)  
+🔗 [Wikipedia – Messschraube](https://de.wikipedia.org/wiki/Messschraube)
+
+---
+
+## ⚖️ Federwaage
+
+![](./figures/federwaage.png)
+
+**Abbildung:** Die Federwaage beruht auf der Ausdehnung einer Spiralfeder durch die Gewichtskraft. Es gilt näherungsweise das Hookesche Gesetz mit linearer Beziehung zwischen Ausdehnung und Gewichtskraft. Eine Spiegelskala ermöglicht parallaxenfreies Ablesen.
+
+---
+
+## 🧱 Prüfgewichte
+
+![](./figures/pruefgewichte.jpg)
+
+**Abbildung:** Zur Kalibrierung der Federwaage werden Prüfgewichte bekannter Masse verwendet. Diese existieren in den Genauigkeitsklassen E1, E2, F1, F2, M1, M2, M3 (abnehmende Genauigkeit).
+
+📄 *Kern Prüfgewichte.pdf*  
+📄 *Kalibrierschein.pdf* (gilt stellvertretend für alle vorhandenen Prüfgewichte)
+
+---
+
+## 🧪 Periodensystem und Dichte
+
+![](./figures/periodensystem1.png)
+
+**Abbildung:** Im Periodensystem sind alle chemischen Elemente nach Ordnungszahl angeordnet; Elemente mit ähnlichen chemischen Eigenschaften stehen in Spalten (Gruppen).
+
+![](./figures/periodensystem2.png)
+
+**Abbildung:** Die Dichte der Elemente steigt tendenziell mit der Ordnungszahl. Alkali- und Erdalkalimetalle haben niedrige Dichten, Übergangsmetalle, Lanthanoide und Actinoide vergleichsweise hohe.
+
+🔗 [Ptable.com – Interaktives Periodensystem](https://ptable.com/)
