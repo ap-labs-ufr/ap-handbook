@@ -1,4 +1,4 @@
-# 🪧 Versuch 2  
+# 🧪 Versuch 2  
 ## Bestimmung der Erdbeschleunigung mit dem Fadenpendel
 
 In diesem Versuch wird die **Erdbeschleunigung *g*** mit Hilfe eines **einfachen Fadenpendels** bestimmt.  
