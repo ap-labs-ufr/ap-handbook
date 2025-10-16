@@ -16,3 +16,6 @@ das **Volumen** für regulär geformte Körper aus **Längenmessungen** berechne
 :width: 100%
 :height: 450
 ```
+
+---
+![](./figures/using_the_caliper_new.gif)
