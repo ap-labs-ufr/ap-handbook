@@ -12,6 +12,8 @@ Zur experimentellen Realisierung eines **mathematischen Pendels** verwenden wir 
 
 ![](./figures/aufbau.jpg)
 
+**Abbildung 1:** Schematische Darstellung und experimenteller Aufbau des Fadenpendels mit markierter Pendellänge *L* und den wirkenden Kräften. Rechts ist die praktische Realisierung mit Aufhängung und Gewicht gezeigt.
+
 Da die **Masse nicht punktförmig** und der **Faden nicht masselos** ist, treten Abweichungen vom idealen Modell auf.  
 Zusätzlich beeinflussen **Reibung** und **Luftwiderstand** die Schwingungsdauer durch eine allmähliche Abnahme der Amplitude.
 
@@ -24,6 +26,9 @@ Wir messen stets **vom Mittelpunkt der Aufhängung bis zum untersten Punkt des G
 
 ![](./figures/massband.jpg)
 
+**Abbildung 2:** Messung der Pendellänge *L* vom Mittelpunkt der Aufhängung bis zum tiefsten Punkt des Gewichts mit einem Maßband.
+markdown
+
 Die Länge *L* wird mit einem **Maßband** gemessen.
 
 ---
@@ -33,6 +38,8 @@ Die Länge *L* wird mit einem **Maßband** gemessen.
 Die **Schwingungsdauer *T*** wird mit einer **digitalen Stoppuhr** bestimmt.
 
 ![](./figures/stoppuhr.jpg)
+
+**Abbildung 3:** Digitale Stoppuhr zur Bestimmung der Schwingungsdauer *T* durch Mittelung mehrerer Perioden.
 
 ---
 
