@@ -1,2 +1,11 @@
 format: jb-book
-root: index
+root: intro
+
+parts:
+  - caption: Versuche
+    chapters:
+      - file: experiments/01/index
+      - file: experiments/02/index
+      - file: experiments/03/index
+      - file: experiments/04/index
+      - file: experiments/05/index
