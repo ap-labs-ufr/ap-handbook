@@ -1,14 +1,42 @@
-# Jupyter Book config
-# Minimal defaults; tweak later (logo, theme, etc.)
-title: AP Labs UFR Handbook
-author: AP Labs UFR
+title: Anfängerpraktikum Handbuch – Allgemeine Informationen
+author: Physikalisches Institut, Universität Freiburg
 only_build_toc_files: true
+
 execute:
-  execute_notebooks: "off"   # change to "auto" later if you want CI to run notebooks
-repository:
-  url: https://github.com/ap-labs-ufr/handbook
-  branch: main
+  execute_notebooks: "off"   # keep CI fast; students run examples via Binder if needed
+
+parse:
+  myst_enable_extensions:
+    - dollarmath
+    - amsmath
+    - colon_fence
+    - deflist
+    - tasklist
+
 html:
-  use_edit_page_button: true
+  favicon: _static/favicon.svg
   use_repository_button: true
   use_issues_button: true
+  use_edit_page_button: true
+  extra_footer: |
+    <p>Text & figures: CC BY 4.0 · Code: MIT</p>
+  extra_css:
+    - _static/custom.css
+    - _static/hide-footer-optional.css
+  extra_js:
+    - _static/hide-footer-optional.js
+
+sphinx:
+  extra_extensions:
+    - sphinxcontrib.mermaid
+
+repository:
+  url: https://github.com/ap-labs-ufr/ap-handbook
+  branch: main
+  path_to_book: ""
+
+copyright: ""
+
+launch_buttons:
+  binderhub_url: https://mybinder.org
+  notebook_interface: classic
