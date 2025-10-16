@@ -51,8 +51,7 @@ Versuchsaufbau mit Messschieber, Bügelmessschraube, Federwaage, Prüfgewichten 
 ![](./figures/mahr_micromar.jpg)
 
 **Abbildung:** Der Messwert wird zunächst auf der Hauptskala, anschließend (Bruchteile von 1/50 oder 1/100 mm) auf der Feinskala abgelesen. Im Beispiel beträgt der Messwert 1,64 mm.
-
-🔗 [Wiki – Bügelmessschraube (Uni Duisburg-Essen)](https://wiki.uni-due.de/tud/index.php/B%C3%BCgelmessschraube)  
+ 
 🔗 [Wikipedia – Messschraube](https://de.wikipedia.org/wiki/Messschraube)
 
 ---
@@ -71,8 +70,8 @@ Versuchsaufbau mit Messschieber, Bügelmessschraube, Federwaage, Prüfgewichten 
 
 **Abbildung:** Zur Kalibrierung der Federwaage werden Prüfgewichte bekannter Masse verwendet. Diese existieren in den Genauigkeitsklassen E1, E2, F1, F2, M1, M2, M3 (abnehmende Genauigkeit).
 
-📄 *Kern Prüfgewichte.pdf*  
-📄 *Kalibrierschein.pdf* (gilt stellvertretend für alle vorhandenen Prüfgewichte)
+📄 [Kern Prüfgewichte (PDF)](./PDFs/Kern_Pruefgewichte.pdf)  
+📄 [Kalibrierschein (PDF)](./PDFs/Kalibrierschein.pdf)
 
 ---
 
