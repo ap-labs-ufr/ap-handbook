@@ -1,10 +1,8 @@
 name: build-and-deploy-jupyterbook
-
 on:
   push:
     branches: [ main ]
   workflow_dispatch:
-
 jobs:
   build-deploy:
     name: Build Jupyter Book and Deploy to gh-pages
@@ -13,24 +11,25 @@ jobs:
       contents: write
       pages: write
       id-token: write
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install jupyter-book
-
+      - name: Install documentation dependencies
+        run: pip install -r requirements.txt
       - name: Build book
-        run: jupyter-book build book
-
+        run: jupyter-book build .
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: book/_build/html
+          publish_dir: _build/html
