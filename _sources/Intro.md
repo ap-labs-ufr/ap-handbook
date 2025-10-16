@@ -35,3 +35,29 @@ die entsprechende **Unterschrift zur Bestätigung** leisten.
 
 ```{admonition} Hinweis
 Nur nach erfolgreicher Sicherheitsunterweisung darf am Praktikum teilgenommen werden.
+```
+
+
+---
+
+## 🧾 Abgabe der Protokolle
+
+Protokolle müssen **spätestens am zweiten Werktag**  
+nach dem Versuchstag eingereicht werden.
+
+Verspätete Einreichungen führen zu einem  
+**Notenabzug von ⅓ Note pro Tag**.
+
+```{tip}
+Frühzeitige Abgabe spart Punkteabzug – nutzen Sie die Abgabefristen auf ILIAS!
+```
+
+---
+
+## 👥 Kursleitung
+
+- Dr. Thomas Pfohl  
+- Dr. Lukas Bruder  
+- Dr. Christof Bartels  
+
+📧 Kontakt: [ap@physik.uni-freiburg.de](mailto:ap@physik.uni-freiburg.de)
