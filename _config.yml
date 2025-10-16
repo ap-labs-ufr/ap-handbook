@@ -22,6 +22,10 @@ html:
     <p>Text & figures: CC BY 4.0 · Code: MIT</p>
   extra_css:
     - _static/custom.css
+  theme:
+    options:
+      show_navbar_depth: 1
+      show_prev_next: false
 
 sphinx:
   extra_extensions:
